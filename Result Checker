@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class practice{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        String name=sc.nextLine();
+        int rollno=sc.nextInt();
+        int phy=sc.nextInt();
+        int chem=sc.nextInt();
+        int maths=sc.nextInt();
+        int english=sc.nextInt();
+
+        int TotalMarks= phy+chem+maths+english;
+        int avg=TotalMarks/4;
+
+        System.out.println("your name :"+name);
+        System.out.println("your Roll number :"+rollno);
+        System.out.println("your marks for physics :"+phy);
+        System.out.println("your marks for chemistry :"+chem);
+        System.out.println("your marks for maths :"+maths);
+        System.out.println("your marks for english :"+english);
+        System.out.println("Your total marks is :" + TotalMarks);
+        System.out.println("Average marks is: "+avg);
+
+
+        if(avg>=90){
+            System.out.println("Excellent");
+        }
+        else if(avg>=80){
+            System.out.println("Very Good");
+        }
+        else if(avg>=70){
+            System.out.println("Good");
+
+        }
+        else if(avg>=60){
+            System.out.println("Well Done");
+        }
+        else if(avg>=50){
+            System.out.println("Well tried");    
+        }
+        else if(avg>=40){
+            System.out.println("Work more hard");
+        }
+        else{
+            System.out.println("Better luck next time");
+        }
+    }
+}
