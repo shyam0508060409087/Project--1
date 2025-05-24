@@ -1,3 +1,3 @@
-# Project--1
+# Project--1- Result Checker
 
-Contains project regarding programming(java) and  it conatains basic concepts to create such as conditional statements,loops,etc..
+A mini project regarding programming(java) and to create it conatains basic concepts such as conditional statements and string(while taking input of name).
